@@ -6,7 +6,7 @@ import re
 
 
 
-url = 'https://tatoeba.org/eng/audio/index/kab?page=75'
+url = 'https://tatoeba.org/eng/audio/index/eng?page=75'
 
 state = requests.get(url)
 
