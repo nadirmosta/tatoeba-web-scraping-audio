@@ -7,7 +7,7 @@ import re
 url = 'https://tatoeba.org/eng/audio/index/kab?page='
 for pages in range (200,365):
     
-
+    print(pages)
     state = requests.get(url+str(pages))
 
     #print(state)
@@ -40,4 +40,5 @@ for pages in range (200,365):
         #download = req.get(listWithAudioHREF[1])
         for c in range(len(download)): 
             with open(name[c], 'wb') as f:
+                print("downloadding audio")
                 f.write(download[c].content)
