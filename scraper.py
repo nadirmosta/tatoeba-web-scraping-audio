@@ -32,7 +32,7 @@ for pages in range (1,12):
             ScriptOfaudio[i] = re.sub('[?"¿]', '', ScriptOfaudio[i].text)
         
 
-        #webbrowser.open(listWithAudioHREF[i], new=2) for loop
+        #webbrowser.open(listWithAudioHREF[i], new=2) for loopsس
         for p in range(len(listWithAudioHREF)):
             download.append(req.get(listWithAudioHREF[p]))
             name.append(' '+ScriptOfaudio[p] + '.mp3')
