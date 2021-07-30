@@ -13,7 +13,7 @@ pip install requests
 ## usage
 to download the audios from the Tatoeba site, choose the language you want to  and copy the URL to the script  
 ```python
-url = 'https://tatoeba.org/en/audio/index?page=1'
+url = 'https://tatoeba.org/en/audio/index?page='
 ```
 and modify the path where you want to download your audio
 ```python
