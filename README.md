@@ -1,4 +1,4 @@
-## Tatoeba Audio Downloader for Anki Cards
+## Tatoeba Audio Downloader for Anki Cards (Web scraping)
 # Description
 This Python script allows you to scrape audio files from the Tatoeba website and download them to create Anki flashcards with audio. The script automates the process of fetching audio recordings for sentences from different languages, making it easier to enhance your language learning experience on Anki.
 
